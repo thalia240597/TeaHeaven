@@ -7,7 +7,7 @@
 
 html, body{
 height: 100%;
-overflow-y: hidden;
+
 overflow-x: hidden;
 
 }
@@ -38,6 +38,9 @@ overflow-x: hidden;
     padding-top: 30px;
     width: 87%;
     text-align:right;
+
+
+    
 }
     .navigation a{
     color:beige;
@@ -48,6 +51,61 @@ overflow-x: hidden;
     margin-right: 20px;
     
     }
+
+    
+/* The subnavigation menu */
+.subnav {
+    float: right;
+    overflow: hidden;
+  }
+  
+  /* Subnav button */
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    color:beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  /* Add a  background color to navigation links on hover */
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color:rgb(197, 129, 84);
+  }
+  
+  /* Style the subnav content - positioned absolute */
+  .subnav-content {
+    display: none;
+    position: right;
+   
+    width: 100%;
+    z-index: 1;
+  }
+  
+  /* Style the subnav links */
+  .subnav-content a {
+    float: justify;
+    color:beige;
+    text-decoration: none;
+  }
+  
+  /* Add a grey background color on hover */
+  .subnav-content a:hover {
+    background-color: rgb(197, 129, 84);
+    color: beige;
+  }
+  
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .subnav:hover .subnav-content {
+    display: block;
+  }
 
     section.sobre{
         height: 700px;
@@ -65,14 +123,14 @@ overflow-x: hidden;
     }
     .tea{
         position:relative;
-        bottom:-150px;
+        bottom:-280px;
         right:-100px;
     }
 
     .social-media{
         position: relative;
         right:-360px;
-        top:-150px;
+        top:50px;
     }
     .social-media img{
 
@@ -81,8 +139,40 @@ overflow-x: hidden;
     }
     .texto-sobre{
         position: relative;
-       left:-1200px;
-        top:-150px;
-        
+       left:10px;
+        top: -600px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color:rgb(110, 69, 31);
+        width: 800px;
     }
     
+.aboutus{
+    position: relative;
+    left:10px;
+     top: -600px;
+     color:rgb(110, 69, 31);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: medium;
+    width: 800px;
+}
+
+.footer{
+    
+        display:flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 2%;
+        background-color:#e0c396;
+        padding: 15px;
+        justify-content:space-between;
+}
+        .footernav{
+        color:beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    margin-right: 20px;
+    }
