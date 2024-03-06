@@ -14,7 +14,7 @@ overflow-x: hidden;
     .center{
         display:flex;
         flex-wrap: wrap;
-        max-width: 1280px;
+        max-width: 100%;
         margin: 0 auto;
         padding: 0 2%;
         
@@ -32,11 +32,11 @@ overflow-x: hidden;
 .center{
     background-color:#e0c396;
     padding: 15px;
-   
-}
+    justify-content:flex-end;}
+
 .navigation {
     padding-top: 30px;
-    width: 80%;
+    width: 87%;
     text-align:right;
 }
     .navigation a{
