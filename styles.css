@@ -159,20 +159,22 @@ overflow-x: hidden;
 
 .footer{
     
-        display:flex;
-        flex-wrap: wrap;
-        max-width: 100%;
-        margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
         padding: 0 2%;
-        background-color:#e0c396;
-        padding: 15px;
-        justify-content:space-between;
+    background-color:#e0c396;
+    padding: 20px; 
+ 
 }
-        .footernav{
-        color:beige;
+.footer a{
+    color:beige;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     font-size: medium;
     font-weight: bold;
     margin-right: 20px;
+               
+
     }
