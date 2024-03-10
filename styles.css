@@ -168,8 +168,8 @@ overflow-x: hidden;
         padding: 15px;
         justify-content:space-between;
 }
-        .footernav{
-        color:beige;
+.footernav a{
+    color:beige;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     font-size: medium;
